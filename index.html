@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta data-n-head="ssr" name="viewport"
+    content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <meta data-n-head="ssr" name="robots" content="noindex">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png"> -->
+  <title>BestOfNotice</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!script src="./assets/index.js" defer=""></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <div>
+      <header class="header">
+        <div class="container header__container"><a href="/"
+            class="logo"><svg width="38" height="42" viewBox="0 0 38 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.7999 12.6C28.0999 13.3 28 14.3 28.5 15.1H28.4L28.7 15.4L31.5 18.2C33.7999 20.6 33.7999 24.3 31.5 26.7L23.2 35C21.1 37.2 17.7 37.5 15.2 35.7C12.6 33.7 12.1 29.9 14.1 27.2C14.2 27 14.4 26.8 14.6 26.7L20.2 21.1C20.9 20.4 22 20.2 22.7999 20.8C23.6999 21.5 23.9 22.7 23.2 23.6C23.2 23.7 23.1 23.7 23.1 23.8L17.5 29.4C16.7999 30.1 16.6 31.2 17.2 32C17.9 32.9 19.1 33.1 20 32.4C20.1 32.4 20.1 32.3 20.2 32.3L27.2999 25.2C28.9 23.7 28.9 21.1 27.4 19.6C27.4 19.6 27.4 19.6 27.2999 19.5L14.7 6.89999C14 6.09999 12.7 6.09999 12 6.79999C12 6.79999 12 6.79999 11.9 6.89999L2.69995 16.1C-0.800049 19.6 -0.800049 25.3 2.69995 28.8L12.6 38.7C16.1 42.2 21.7999 42.2 25.2999 38.7L35.2 28.8C38.7 25.3 38.7 19.6 35.2 16.1L31.7 12.6C30.9 11.8 29.5999 11.8 28.7999 12.6Z"
+                fill="#2389EE"></path>
+              <path
+                d="M17.5 1.29989C18.2 0.499893 19.5 0.499893 20.2 1.19989C20.2 1.19989 20.2 1.19989 20.3 1.29989L26 6.89989C26.8 7.59989 26.8 8.89989 26.1 9.59989C26.1 9.59989 26.1 9.59989 26 9.69989C25.3 10.4999 24 10.4999 23.3 9.79989C23.3 9.79989 23.3 9.79989 23.2 9.69989L17.5 3.99989C16.8 3.29989 16.7 2.19989 17.4 1.39989L17.5 1.29989Z"
+                fill="#FF6636"></path>
+            </svg> <span class="logo__text">BestOfNotice</span></a>
+          <div class="header__phone"><svg width="34" height="34" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg"
+              class="header__phone-icon">
+              <path
+                d="M3.76322 22.995L8.41989 22.4633C9.53822 22.335 10.6382 22.72 11.4266 23.5083L14.7999 26.8816C19.9882 24.2416 24.2416 20.0066 26.8816 14.8L23.4899 11.4083C22.7016 10.62 22.3166 9.51996 22.4449 8.40162L22.9766 3.78162C23.1966 1.92995 24.7549 0.536621 26.6249 0.536621H29.7966C31.8682 0.536621 33.5916 2.25995 33.4632 4.33162C32.4916 19.9883 19.9699 32.4916 4.33156 33.4633C2.25989 33.5916 0.536556 31.8683 0.536556 29.7966V26.625C0.518222 24.7733 1.91156 23.215 3.76322 22.995Z">
+              </path>
+            </svg>
+            <div class="header__phone-text"><a href="tel:0 800 91 44 57" class="header__phone-number">0 800 91
+                44 57</a> <span class="header__phone-time">24 heures sur 24</span></div>
+          </div>
+        </div>
+      </header>
+      <div class="v-stages-bar">
+        <div class="v-stages-bar__stage v-stages-bar__stage--active">
+          <div class="v-stages-bar__stage-circle v-stages-bar__stage-circle--active">
+            1
+          </div>
+          <div
+            class="v-stages-bar__stage-circle v-stages-bar__stage-circle--complete v-stages-bar__stage-circle--validate">
+            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.74998 15.95L2.79998 10L0.81665 11.9833L8.74998 19.9167L25.75 2.91668L23.7667 0.93335L8.74998 15.95Z"
+                fill="white"></path>
+            </svg>
+          </div> <span class="v-stages-bar__stage-name">VOTRE NOTICE</span>
+        </div>
+        <div class="v-stages-bar__line"></div>
+        <div class="v-stages-bar__stage">
+          <div class="v-stages-bar__stage-circle">
+            2
+          </div>
+          <div
+            class="v-stages-bar__stage-circle v-stages-bar__stage-circle--complete v-stages-bar__stage-circle--validate">
+            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.74998 15.95L2.79998 10L0.81665 11.9833L8.74998 19.9167L25.75 2.91668L23.7667 0.93335L8.74998 15.95Z"
+                fill="white"></path>
+            </svg>
+          </div> <span class="v-stages-bar__stage-name">CHOISISSEZ VOTRE OFFRE</span>
+        </div>
+        <div class="v-stages-bar__line"></div>
+        <div class="v-stages-bar__stage">
+          <div class="v-stages-bar__stage-circle">
+            3
+          </div>
+          <div
+            class="v-stages-bar__stage-circle v-stages-bar__stage-circle--complete v-stages-bar__stage-circle--validate">
+            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.74998 15.95L2.79998 10L0.81665 11.9833L8.74998 19.9167L25.75 2.91668L23.7667 0.93335L8.74998 15.95Z"
+                fill="white"></path>
+            </svg>
+          </div> <span class="v-stages-bar__stage-name">COMMANDE</span>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <section class="top-bar">
+        <div class="container"></div>
+      </section>
+      <section class="find-manual">
+        <div class="container">
+          <div class="find-manual__container">
+            <div class="find-manual__abstraction">
+              <div class="find-manual__abstraction-ring"></div>
+              <div class="find-manual__abstraction-gradient-circle"></div>
+              <div class="find-manual__abstraction-smallest-circle"></div>
+              <div class="find-manual__abstraction-first-client"><img src="./assets/abstraction-client-photo.png"
+                  alt="client" class="find-manual__abstraction-client-photo"></div>
+              <div class="find-manual__abstraction-second-client"><img
+                  src="./assets/abstraction-client-photo-2.png" alt="client"
+                  class="find-manual__abstraction-client-photo"></div>
+              <div class="find-manual__abstraction-third-client"><img src="./assets/abstraction-client-photo-3.png"
+                  alt="client" class="find-manual__abstraction-client-photo"></div>
+            </div>
+            <div class="find-manual__main">
+              <h2 class="main-title">Rechercher Votre Mode d'Emploi</h2> <span
+                class="find-manual__form-description">Pour accéder aux manuels, veuillez saisir les données
+                requises</span>
+
+
+              <form class="new-form" id="userDataForm">
+                <div class="form-block" data-step="0" style="display: block">
+                    <div class="input-wrapper StepForm">
+                        <div id="markWrapper" class="form-block__full">
+                            <i class="far fa-check-circle"></i
+                            ><input
+                                type="text"
+                                data-validate="name"
+                                class="w100"
+                                id="mark"
+                                name="mark"
+                                autocomplete="off"
+                                required
+                        /><span class="placeholder mark">Marque</span>
+                        </div>
+
+                        <div id="modelWrapper" class="form-block__full">
+                            <i class="far fa-check-circle"></i
+                            ><input
+                                type="text"
+                                data-validate="name"
+                                class="w100"
+                                id="model"
+                                name="model"
+                                autocomplete="off"
+                                required
+                        /><span class="placeholder model">Modèle</span>
+                        </div>
+                        <div id="usernameWrapper" class="form-block__full">
+                            <i class="far fa-check-circle"></i
+                            ><input
+                                type="text"
+                                data-validate="username"
+                                class="w100"
+                                id="username"
+                                name="username"
+                                autocomplete="off"
+                                required
+                        /><span class="placeholder username">NOM ET PRÉNOM</span>
+                        </div>
+                        <div id="emailWrapper" class="form-block__full">
+                            <i class="far fa-check-circle"></i
+                            ><input
+                                type="text"
+                                data-validate="email"
+                                class="w100"
+                                id="email"
+                                name="email"
+                                autocomplete="off"
+                        /><span class="placeholder email">Adresse email:</span>
+                            <ul class="email-hint">
+                                <li class="email" data-value="gmail.com">@gmail.com</li>
+                                <li class="email" data-value="outlook.com">
+                                    @outlook.com
+                                </li>
+                                <li class="email" data-value="live.com">@live.com</li>
+                                <li class="email" data-value="orange.fr">@orange.fr</li>
+                                <li class="email" data-value="gmail.fr">@gmail.fr</li>
+                                <li class="email" data-value="hotmail.fr">
+                                    @hotmail.fr
+                                </li>
+                                <li class="email" data-value="live.fr">@live.fr</li>
+                                <li class="email" data-value="sfr.fr">@sfr.fr</li>
+                                <li class="email" data-value="yahoo.fr">@yahoo.fr</li>
+                                <li class="email" data-value="gmx.fr">@gmx.fr</li>
+                                <li class="email" data-value="wanadoo.fr">
+                                    @wanadoo.fr
+                                </li>
+                                <li class="email" data-value="neuf.fr">@neuf.fr</li>
+                                <li class="email" data-value="free.fr">@free.fr</li>
+                            </ul>
+                        </div>
+                        <div id="emailInvalid" class="invalidField">
+                            * L'email est invalide (ex. mari@sfr.fr)
+                        </div>
+                        <button
+                                id="submitForm"
+                                type="submit"
+                                class="button form__submit-button find-manual__submit-button"
+                                data-call="_generateFullName"
+                                data-next="1"
+                                data-href="https://{trackingdomain}/click/?origin={origin}"
+                        >
+                          Continuer
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__container">
+            <div class="v-advantage">
+              <div class="v-advantage__top"><img src="./assets/user-manuals-advantage.svg" alt="illustration">
+                <h6 class="v-advantage__title">Manuels d'utilisation</h6>
+              </div>
+              <p class="v-advantage__description">
+                Manuels d'utilisation ordonnée, organisée et classifiée par marques et par type de produits
+              </p>
+            </div>
+            <div class="v-advantage">
+              <div class="v-advantage__top"><img src="./assets/advantage-2.svg" alt="illustration">
+                <h6 class="v-advantage__title">Accès Immédiat</h6>
+              </div>
+              <p class="v-advantage__description">
+                Profitez de plus de 50 000 Manuels d'utilisation, de guides pour la maison, ou encore d’un
+                dépannage pour vos appareils informatiques (seulement dans le cadre de l’offre Privilège). Pour
+                avoir accès à nos services, l'offre Express est facturée 1.95€ pour 3 jours d'essai et est
+                ensuite reconduite en offre Privilège à 45.85€ tous les deux mois pour une durée indéterminée.
+              </p>
+            </div>
+            <div class="v-advantage">
+              <div class="v-advantage__top"><img src="./assets/advantage-3.svg" alt="illustration">
+                <h6 class="v-advantage__title">Guides pour la maison</h6>
+              </div>
+              <p class="v-advantage__description">
+                Des guides pratiques et concrets pour les propriétaire ou ceux qui souhaitent le devenir dans un
+                futur proche.
+              </p>
+            </div>
+            <div class="v-advantage">
+              <div class="v-advantage__top"><img src="./assets/advantage-4.svg" alt="illustration">
+                <h6 class="v-advantage__title">Dépannage à distance</h6>
+              </div>
+              <p class="v-advantage__description">Des spécialistes disponibles pour vous aider à diagnostiquer
+                et dépanner à distance vos appareils informatiques.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__description">
+          <div class="footer__description-block footer__description-block--large">
+            <h6 class="footer__description-block-title">Pourquoi avons-nous besoin de vos informations de
+              facturation?</h6>
+            <div class="footer__description-block-paragraphs">
+              <p class="introduction-text">
+                En adhérant à ce service, vous bénéficierez d'un essai de 3 jours au programme de notre
+                partenaire. Si vous poursuivez avec un abonnement au-delà de la période d'essai de 3 jours, vous
+                serez débités d'un montant sur votre carte de crédit, qui varie selon le choix, de dix neuf
+                euros à quatre vingt dix euros. Lorsque votre cotisation aura été prélevé sur votre carte de
+                crédit ou autre méthode de paiement, vous conserverez l'accès à ces services, ceux-ci sont
+                exclusivement réservés aux membres payant l'accès sur le site de notre partenaire.
+              </p>
+              <p class="introduction-text">
+                *
+                € 1.95 abonnement Tarif À la fin de la période d'essai de 3 jours, celle-ci débouchera sur un
+                renouvellement automatique d'abonnement qui vous permettra d’accéder à l'une de nos plateformes
+                pour seulement €45.85 par mois. Offre sans engagement: vous pouvez annuler votre période d'essai
+                ou abonnement à tout moment. Les noms de produits ou marques cités sur cette page demeurent la
+                propriété exclusive de leurs détenteurs respectifs.
+              </p>
+            </div>
+          </div>
+          <div class="footer__description-block">
+            <h6 class="footer__description-block-title">Y a-t-il une limite d'âge?</h6>
+            <p class="introduction-text">
+              Chez tous les membres doivent être âgés de plus de 18 ans pour s'inscrire. Cela signifie que les
+              personnes âgées de moins de 18 ans ne peuvent pas accéder à nos promotions. Toute personne âgée de
+              moins de 18 ans n'est pas autorisée à adhéreer et à payer nos services au moyen d'une carte de
+              crédit.
+            </p>
+          </div>
+          <div class="footer__description-block">
+            <h6 class="footer__description-block-title">Aucun frais caché?</h6>
+            <p class="introduction-text">
+              Nous nous assurons d'offrir à nos membres un historique détaillé des transactions, afin qu'ils
+              sachent ce qu'ils paient. Les informations de carte de crédit sont requises pour faciliter les
+              achats futurs, uniquement. Aucun frais n'apparaîtra sur votre relevé de carte de crédit, si vous
+              ne passez pas au niveau d'adhésion PREMIUM et si vous n'effectuez pas d'achat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="terms"><a href="#/fr/instr/page-terms" target="_blank"
+          class="footer__link">Conditions Générales</a></div>
+    </footer>
+  </div>
+
+
+  <button class="scrollToTopBtn">
+    <svg style="width:34px;height:34px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+      <path fill="#ffffff" clip-rule="evenodd"
+        d="M26.711 20.273l-9.999-9.977a1.012 1.012 0 00-1.429 0l-9.991 9.97c-.66.634-.162 1.748.734 1.723h19.943c.893.023 1.377-1.083.742-1.716zm-10.713-7.84l7.566 7.55H8.432l7.566-7.55z"
+        fill-rule="evenodd" />
+    </svg>
+  </button>
+
+
+</body>
+
+</html>
