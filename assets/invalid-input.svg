@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<title>invalid-input-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff3636 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M13.67 7C13.67 10.68 10.68 13.67 7 13.67C3.32 13.67 0.33 10.68 0.33 7C0.33 3.32 3.32 0.33 7 0.33C10.68 0.33 13.67 3.32 13.67 7ZM7.67 9L6.33 9L6.33 10.33L7.67 10.33L7.67 9ZM7.67 3.67L6.33 3.67L6.33 7.67L7.67 7.67L7.67 3.67Z" />
+</svg>
